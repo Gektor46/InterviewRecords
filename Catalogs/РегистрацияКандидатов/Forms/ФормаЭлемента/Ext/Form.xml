@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Наименование" id="1">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Вакансия" id="4">
+			<DataPath>Объект.Вакансия</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВакансияКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ВакансияРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ДатаРождения" id="7">
+			<DataPath>Объект.ДатаРождения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Пол" id="10">
+			<DataPath>Объект.Пол</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПолКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ПолРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Телефон" id="13">
+			<DataPath>Объект.Телефон</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ТелефонКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="email" id="16">
+			<DataPath>Объект.email</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="emailКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="emailРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ОжидаемыйДоход" id="19">
+			<DataPath>Объект.ОжидаемыйДоход</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОжидаемыйДоходКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ОжидаемыйДоходРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Образование" id="22">
+			<DataPath>Объект.Образование</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбразованиеКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ОбразованиеРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="ЗнанияИНавыки" id="25">
+			<DataPath>Объект.ЗнанияИНавыки</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЗнанияИНавыкиКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ЗнанияИНавыкиРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ОпытРаботы" id="28">
+			<DataPath>Объект.ОпытРаботы</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОпытРаботыКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ОпытРаботыРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<PictureField name="Фото" id="31">
+			<DataPath>Фото</DataPath>
+			<FileDragMode>AsFile</FileDragMode>
+			<ContextMenu name="ФотоКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ФотоРасширеннаяПодсказка" id="33"/>
+		</PictureField>
+		<Button name="Кнопка1" id="34">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ДобавитьФотографию</CommandName>
+			<ExtendedTooltip name="Кнопка1РасширеннаяПодсказка" id="35"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.РегистрацияКандидатов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="Фото" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фото</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ДобавитьФотографию" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить фотографию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить фотографию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьКартинку</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ДобавитьРезюме" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить резюме</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить резюме</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьРезюме</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

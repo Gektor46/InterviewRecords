@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
+	<ConfigVersions>
+		<Metadata name="Catalog.Вакансии" id="9eed3877-ef80-4a27-a4e7-d6fc36d5e253" configVersion="da83bcfd97ef1045bd3490480a12c1b100000000"/>
+		<Metadata name="Catalog.Вакансии.Form.ФормаСписка" id="19bdaff0-2e5f-4116-ab9f-7a0a0a1acbea" configVersion="42cb4e66fc46bc419bd67c1bfbe18f8900000000"/>
+		<Metadata name="Catalog.Вакансии.Form.ФормаСписка.Form" id="19bdaff0-2e5f-4116-ab9f-7a0a0a1acbea.0" configVersion="b8ce7385cb53394584104f7da166ee7300000000"/>
+		<Metadata name="Catalog.РегистрацияКандидатов" id="82fa9f07-5d71-40fe-8b08-b271e5162585" configVersion="791f8aa6fe62414ab93c485511d0335c00000000">
+			<Metadata name="Catalog.РегистрацияКандидатов.Attribute.email" id="11f05275-7923-4bb0-a091-4dd7384b78ff"/>
+			<Metadata name="Catalog.РегистрацияКандидатов.Attribute.Образование" id="1ded51ca-eda4-4a5c-b2a2-68ab006b5c27"/>
+			<Metadata name="Catalog.РегистрацияКандидатов.Attribute.ОпытРаботы" id="1e7e156f-40ce-4bce-bb31-012bd039ec96"/>
+			<Metadata name="Catalog.РегистрацияКандидатов.Attribute.Вакансия" id="494589ef-4e38-4e43-a5b5-ab5b6260b8bd"/>
+			<Metadata name="Catalog.РегистрацияКандидатов.Attribute.Резюме" id="65c7eef5-1720-4671-b62e-f3c0214d33d2"/>
+			<Metadata name="Catalog.РегистрацияКандидатов.Attribute.ОжидаемыйДоход" id="7b2062cd-ddff-401f-a0ae-34ed529947bb"/>
+			<Metadata name="Catalog.РегистрацияКандидатов.Attribute.ДатаРождения" id="842cea18-867e-43cd-b79a-6be75cd31fda"/>
+			<Metadata name="Catalog.РегистрацияКандидатов.Attribute.Телефон" id="8e9f6148-bc80-4b44-9a66-f9615b2f0905"/>
+			<Metadata name="Catalog.РегистрацияКандидатов.Attribute.ЗнанияИНавыки" id="b1739a40-5e3b-4ee1-ac22-51df55d22d60"/>
+			<Metadata name="Catalog.РегистрацияКандидатов.Attribute.Пол" id="c7ac69ba-61b9-4c50-bad4-d50b1121abb3"/>
+			<Metadata name="Catalog.РегистрацияКандидатов.Attribute.Фотография" id="f1b1b1c6-ae9d-4341-9479-efeee6d90333"/>
+		</Metadata>
+		<Metadata name="Catalog.РегистрацияКандидатов.Form.ФормаСписка" id="d5c10379-f70c-4d8d-8d4b-d3fcaf8f7cd8" configVersion="1359ded9c00d6f41b247fb518c5c9c0200000000"/>
+		<Metadata name="Catalog.РегистрацияКандидатов.Form.ФормаСписка.Form" id="d5c10379-f70c-4d8d-8d4b-d3fcaf8f7cd8.0" configVersion="5b3aefd43bf2274ba5497bc1270a8f5500000000"/>
+		<Metadata name="Catalog.РегистрацияКандидатов.Form.ФормаЭлемента" id="f24e8a40-f2df-4c62-9f10-18b8183c17b2" configVersion="1bdf066448533542afd0170ed74d741000000000"/>
+		<Metadata name="Catalog.РегистрацияКандидатов.Form.ФормаЭлемента.Form" id="f24e8a40-f2df-4c62-9f10-18b8183c17b2.0" configVersion="a47ceaae1173d24f956523b0299565d400000000"/>
+		<Metadata name="Catalog.Файлы" id="3cf9e130-0e3e-4997-a1bd-df8a29028ea1" configVersion="b9a76f80b71774498f3eb306aa492e3f00000000">
+			<Metadata name="Catalog.Файлы.Attribute.Файл" id="f0acb6e5-8746-4b5f-a58e-3026079de0f1"/>
+		</Metadata>
+		<Metadata name="CommonPicture.Встречи" id="60d7e11b-53eb-4b7c-be44-b0cc23f34eb8" configVersion="5b7f2a5676904e4ebe075c0a2e35aa7c00000000"/>
+		<Metadata name="CommonPicture.Встречи.Picture" id="60d7e11b-53eb-4b7c-be44-b0cc23f34eb8.0" configVersion="8201d0575445df42b04cd7bf1d80124f00000000"/>
+		<Metadata name="CommonPicture.Кандидаты" id="23453082-269a-4f91-878d-d89760c874dd" configVersion="e4fedfa6bc53b949b7c91fda29f422ce00000000"/>
+		<Metadata name="CommonPicture.Кандидаты.Picture" id="23453082-269a-4f91-878d-d89760c874dd.0" configVersion="bfdc78b0cfa49f44879cacb05fce0ad800000000"/>
+		<Metadata name="Configuration.УчетСобеседований" id="30af35da-9baf-46be-a3c5-077fa0d0cb7c" configVersion="150a8f7de3d4ed40b785ed525403e43100000000"/>
+		<Metadata name="Configuration.УчетСобеседований.CommandInterface" id="465f2867-cc5e-4b3f-b574-09ec7050f00e.a" configVersion="665fe23ba0266d41a24f92f6e151277d00000000"/>
+		<Metadata name="Configuration.УчетСобеседований.HomePageWorkArea" id="465f2867-cc5e-4b3f-b574-09ec7050f00e.8" configVersion="e19f28315dd9c44baa33f64e6bb88c3300000000"/>
+		<Metadata name="Configuration.УчетСобеседований.MainSectionCommandInterface" id="465f2867-cc5e-4b3f-b574-09ec7050f00e.9" configVersion="db7d1498d533f345b51aeed1951b0df300000000"/>
+		<Metadata name="Configuration.УчетСобеседований.ManagedApplicationModule" id="465f2867-cc5e-4b3f-b574-09ec7050f00e.6" configVersion="6b53d9b2e0df8341bdf514ce97763ba800000000"/>
+		<Metadata name="Document.ВстречиСКандидатами" id="b7cd1568-d6b2-48a1-a9c7-c313c238ddd9" configVersion="6ccc01f4d6fce047bbbf3b22da74731800000000">
+			<Metadata name="Document.ВстречиСКандидатами.Attribute.Кандидат" id="0428120f-62e8-4b47-95b3-fbb26509f2fa"/>
+			<Metadata name="Document.ВстречиСКандидатами.Attribute.Вакансия" id="0a7a0389-4abe-4dc8-8102-107a1a512f12"/>
+			<Metadata name="Document.ВстречиСКандидатами.Command.Печать" id="5ed1206b-e40c-45a5-97a8-e27d42b47c56"/>
+			<Metadata name="Document.ВстречиСКандидатами.Attribute.ИтогСобеседования" id="9f271daf-3b1e-4d71-8d6b-d7c501e24273"/>
+		</Metadata>
+		<Metadata name="Document.ВстречиСКандидатами.Command.Печать.CommandModule" id="5ed1206b-e40c-45a5-97a8-e27d42b47c56.2" configVersion="fa3c9f7f7ad6f54e8eed4985bd4ca78100000000"/>
+		<Metadata name="Document.ВстречиСКандидатами.Form.ФормаВыбора" id="feacd26c-ac7e-4225-b075-a7fb00248c99" configVersion="5379b4bc7a2c9c4b8bb89cbd353c877d00000000"/>
+		<Metadata name="Document.ВстречиСКандидатами.Form.ФормаВыбора.Form" id="feacd26c-ac7e-4225-b075-a7fb00248c99.0" configVersion="bccd2711fca18042bc8f5b35872e027100000000"/>
+		<Metadata name="Document.ВстречиСКандидатами.Form.ФормаДокумента" id="4b1eed92-eb3c-4281-8155-cf3f997b240f" configVersion="326d588bb191fc40afb27e389674b07900000000"/>
+		<Metadata name="Document.ВстречиСКандидатами.Form.ФормаДокумента.Form" id="4b1eed92-eb3c-4281-8155-cf3f997b240f.0" configVersion="83ecbfe4a656de47aabf8fa63c141b3500000000"/>
+		<Metadata name="Document.ВстречиСКандидатами.Form.ФормаСписка" id="daeeeff2-2856-4bae-b9d0-3be41633148d" configVersion="b8c49183d5047f48a81115cf5aff9e5a00000000"/>
+		<Metadata name="Document.ВстречиСКандидатами.Form.ФормаСписка.Form" id="daeeeff2-2856-4bae-b9d0-3be41633148d.0" configVersion="c87c2e7cb3c17949bc283f2230f3a06d00000000"/>
+		<Metadata name="Document.ВстречиСКандидатами.ManagerModule" id="b7cd1568-d6b2-48a1-a9c7-c313c238ddd9.2" configVersion="3b36279539ac2346bcf6e8337a37b97000000000"/>
+		<Metadata name="Document.ВстречиСКандидатами.ObjectModule" id="b7cd1568-d6b2-48a1-a9c7-c313c238ddd9.0" configVersion="6725f0629afad64ab14e708d871597af00000000"/>
+		<Metadata name="Document.ВстречиСКандидатами.Template.Печать" id="9911e35c-218c-463b-bf79-61807a3584a9" configVersion="260c565590465043a9edce0340f33b0300000000"/>
+		<Metadata name="Document.ВстречиСКандидатами.Template.Печать.Template" id="9911e35c-218c-463b-bf79-61807a3584a9.0" configVersion="acd188172d32be4c8905526f60a294be00000000"/>
+		<Metadata name="Language.Русский" id="61f04adf-6187-4451-87c7-0238d9ddf235" configVersion="8a39e61334ca81468d464bd9e5bc6af700000000"/>
+		<Metadata name="Report.ОтчетПоВакансиям" id="73c8c673-cfe4-4939-9379-294526eab77e" configVersion="857e0d711fdd1a41acbd17ff16271a8d00000000"/>
+		<Metadata name="Report.ОтчетПоВакансиям.Template.ОсновнаяСхемаКомпоновкиДанных" id="cce452c2-1e28-4333-bdda-0eb0e88d1980" configVersion="34e20ce61dde684d898e0b5941adb75c00000000"/>
+		<Metadata name="Report.ОтчетПоВакансиям.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="cce452c2-1e28-4333-bdda-0eb0e88d1980.0" configVersion="39f32ef7cb44bf4092557e21eb58af8700000000"/>
+		<Metadata name="Report.ОтчетПоКандидатам" id="e37605ac-9834-48e8-bc50-dd2b893a7eb8" configVersion="420137a75924ad4a88429c467b31d50a00000000"/>
+		<Metadata name="Report.ОтчетПоКандидатам.Template.ОсновнаяСхемаКомпоновкиДанных" id="8066a6fc-a12d-4d9a-bd48-7f5a1c21ef37" configVersion="154110caa6354e4699a4ac26da64797a00000000"/>
+		<Metadata name="Report.ОтчетПоКандидатам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="8066a6fc-a12d-4d9a-bd48-7f5a1c21ef37.0" configVersion="45dca4dc1395a94cb4c0cd6d2ff65c7100000000"/>
+		<Metadata name="Subsystem.Встречи" id="9f93dc4f-ee28-403c-813d-1fb609a26e99" configVersion="6ff7fae05dd6684b89569e1b1c06e8f100000000"/>
+		<Metadata name="Subsystem.Встречи.CommandInterface" id="9f93dc4f-ee28-403c-813d-1fb609a26e99.1" configVersion="1dd8dd0ed0c1fc4f8d81ca402fd26a5600000000"/>
+		<Metadata name="Subsystem.Кандидаты" id="7ac75745-7da7-494f-8465-b5b6084c4237" configVersion="d536f5e64060b5498f0e77d1b416919300000000"/>
+		<Metadata name="Subsystem.Кандидаты.CommandInterface" id="7ac75745-7da7-494f-8465-b5b6084c4237.1" configVersion="c5d90a16c193a1449af3829c368d598000000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
